@@ -19,5 +19,11 @@ class DatabaseSeeder extends Seeder
             'name' => 'Test User',
             'email' => 'test@example.com',
         ]);
+
+        // Seed feature toggles first
+        $this->call([
+            FeatureToggleSeeder::class,
+            ContactSeeder::class,
+        ]);
     }
 }

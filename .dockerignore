@@ -1,0 +1,57 @@
+# Arquivos de desenvolvimento
+.env
+.env.example
+.env.local
+.env.production
+.env.staging
+.env.testing
+
+# Dependências
+node_modules
+vendor
+
+# Arquivos do sistema
+.DS_Store
+.vscode
+.idea
+*.log
+*.tmp
+*.temp
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Build
+public/build
+public/hot
+public/storage
+public/mix-manifest.json
+
+# Cache
+storage/app
+storage/framework/cache
+storage/framework/sessions
+storage/framework/testing
+storage/framework/views
+storage/logs
+bootstrap/cache
+
+# Docker
+Dockerfile
+docker-compose.yml
+docker-compose.override.yml
+.dockerignore
+
+# Testes
+tests
+phpunit.xml
+.phpunit.result.cache
+
+# Ferramentas
+.editorconfig
+.gitattributes
+.gitignore
+README.md
+setup-docker.sh 
